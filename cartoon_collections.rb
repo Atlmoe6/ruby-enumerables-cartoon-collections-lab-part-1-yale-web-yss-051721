@@ -5,7 +5,7 @@ def greet_characters(array)
   # Print a custom greeting for each element
     
   characters_array = ["Dopey", "Grumpy", "Bashful"]
-  characters_array.each do |character_array|
+ array.each do |character_array|
     puts "Hello #{character_array}!"
 
 end
